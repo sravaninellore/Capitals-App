@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #93c5fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 26px;
+}
+
+.question {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #323f4b;
+}
+
+.drop-down-list {
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  outline: none;
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  padding: 8px 45px 8px 11px;
+  margin-right: 8px;
+}
+
+.capital {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.country {
+  font-family: 'Roboto';
+  font-size: 19px;
+  color: #1e293b;
+  font-weight: 900;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 576px) {
+  .card-container {
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px 15px 20px 15px;
+  }
+
+  .drop-down-list {
+    margin-bottom: 8px;
+  }
+}
